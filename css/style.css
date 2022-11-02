@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: gold;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  padding: 30px;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+main {
+  height: 90vh;
+}
+
+select {
+  width: 100px;
+  text-align: center;
+}
+
+.btn-play {
+  padding: 5px 30px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 900px;
+  aspect-ratio: 1/1;
+  border: 2px solid black;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 10);
+  aspect-ratio: 1/1;
+  border: 2px solid black;
+}
+
+.square.select {
+  background-color: salmon;
+}
