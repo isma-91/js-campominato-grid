@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: "Josefin Sans", sans-serif;
+}
+
 body {
   height: 100vh;
   background-color: gold;
@@ -17,6 +21,21 @@ header {
   padding: 30px;
   background-color: white;
   border-bottom: 2px solid black;
+  font-weight: bold;
+}
+
+header img {
+  height: 100px;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+h1 {
+  font-size: 3em;
 }
 
 main {
@@ -30,6 +49,7 @@ select {
 
 .btn-play {
   padding: 5px 30px;
+  margin-left: 15px;
 }
 
 .container {
@@ -44,8 +64,8 @@ select {
   margin: auto;
   max-width: 900px;
   aspect-ratio: 1/1;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
 }
 
 .square {
@@ -54,8 +74,8 @@ select {
   justify-content: center;
   font-weight: bold;
   aspect-ratio: 1/1;
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
 }
 
 /* .square.easy {
