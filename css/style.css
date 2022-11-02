@@ -50,10 +50,21 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: calc(100% / 10);
   aspect-ratio: 1/1;
   border: 2px solid black;
 }
+
+/* .square.easy {
+  width: calc(100% / 10);
+}
+
+.square.normal {
+  width: calc(100% / 9);
+}
+
+.square.hard {
+  width: calc(100% / 7);
+} */
 
 .square.select {
   background-color: salmon;
