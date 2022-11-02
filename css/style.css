@@ -35,23 +35,27 @@ select {
 .container {
   height: 100%;
   display: flex;
+  padding: 10px;
 }
 
 .grid {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  width: 900px;
+  max-width: 900px;
   aspect-ratio: 1/1;
-  border: 2px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
 }
 
 .square {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: bold;
   aspect-ratio: 1/1;
-  border: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
 }
 
 /* .square.easy {

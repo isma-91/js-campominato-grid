@@ -2,6 +2,7 @@ const eleGrid = document.querySelector(".grid");
 const eleBtnPlay = document.querySelector(".btn-play");
 
 eleBtnPlay.addEventListener("click", function () {
+  eleGrid.innerHTML = "";
   let diff = document.querySelector("[name=diff]").value;
 
   if (diff === "easy") {
